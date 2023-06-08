@@ -1,0 +1,221 @@
+@media (max-width: 600px) {
+    #nav{
+        padding: 0 5vh;
+    }
+    .nav-center a,.nav-right a{
+        display: none;
+    }.nav-right i{
+        display: inline-block;
+    }
+    #page1{
+        flex-direction: column;
+    }
+    .page1-left{
+        width: 100%;
+        height: 60%;
+    }.page1-right{
+        width: 100%;
+        height: 40%;
+        /* background-color: aqua; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }.page1-right p{
+        /* margin-bottom: 20%; */
+        font-size: 3vw;
+    }.page1-right .write{
+        margin-bottom: 25%;
+        font-size: 3vw;
+    }.page1-right .button{
+        margin-top: -1%;
+    }.page1-right .button button{
+        font-size: 3vw;
+        padding: 10px 20px;
+    }.write a{
+        font-size: 3vw;
+    }
+    
+    /* // page 2  */
+    #page2{
+        overflow: hidden;
+        height: 20vh;
+        gap: 25px;
+    }#page2 img{
+        width: 50px;
+    }#page2 img:hover{
+        width: 60px;
+    }
+
+    /* // page 3  */
+    #page3{
+        flex-direction: column;
+    }.page3-left{
+        width: 100%;
+        height: 50%;
+    }.page3-right{
+        width: 100%;
+        height: 50%;
+        justify-content: center;
+        gap: 20px;
+        /* background-color: aqua; */
+        align-items: center;
+    }.page3-right h1{
+        font-size: 6vw;
+        line-height: 1.1;
+    }.page3-right p{
+        font-size: 3vw;
+    }.page3-right .cardamonsP{
+        font-size: 2.5vw;
+        text-align: center;
+    }.page3-right button{
+        font-size: 2.5vw;
+    }.page4-top h1{
+        font-size: 6vw;
+    }.page4-top p{
+        font-size: 3vw;
+    }.page4-bottom{
+        flex-direction: column-reverse;
+    }.page4-bottom-left{
+        width: 100%;
+        height: 50%;
+        padding: 0 10vw;
+        gap: 20px;
+    }.page4-bottom-left h3{
+        font-size: 3vw;
+    }.page4-bottom-right{
+        width: 100%;
+        height: 50%;
+    }
+
+    /* // page5  */
+    #page5{
+        height: 50vh;
+    }#page5 img{
+        width: 40%;
+    }#page5 h2{
+        font-size: 5vw;
+    }#page5 p{
+        font-size: 3.5vw;
+        padding: 0 20px;
+        text-align: center;
+    }#page5 button{
+        font-size: 3vw;
+    }#page6{
+        height: 60vh;
+        gap: 40px;
+    }
+
+
+
+    #page6 #card{
+        width: 90%;
+        height: 25vh;
+        padding: 0 10px;
+        bottom: -25%;
+    }#card p:nth-child(1){
+        font-size: 3vw;
+    }#card p:nth-child(2){
+        font-size: 2.3vw;
+    }
+    #page6 .automacted{
+        gap: 20px;
+        padding: 0 10px;
+    }
+    #page6 .automacted h3{
+        font-size: 2.5vw;
+        width: 30%;
+        gap: 10px;
+    }#page6 .automacted h3 img{
+        width: 35%;
+    }#page6 a{
+        font-size: 3vw;
+    }
+    #page7{
+        height: 70vh;
+    }.page7-top{
+        height: 35%;
+    }.page7-top h1{
+        font-size: 6.5vw;
+    }
+    .page7-bottom{
+        justify-content: space-between;
+        padding: 0 20px;
+    }.left-arrow i{
+        font-size: 6vw;
+    }.page7-card{
+        width: 90%;
+        height: 60%;
+    }.page7-card-top p{
+        font-size: 2.3vw;
+    }.page7-card-bottom{
+        gap: 10px;
+    }
+    .page7-card-bottom h3{
+        font-size: 2.5vw;
+    }.page7-card-bottom p{
+        font-size: 2.5vw;
+    }#page8{
+        height: 60vh;
+    }.page8-top{
+        height: 40%;
+        width: 100%;
+        margin-left: 0;
+    }.page8-top h1{
+        font-size: 5vw;
+    }.page8-top p{
+        font-size: 2.5vw;
+    }.page8-top button{
+        font-size: 2.5vw;
+        padding: 10px 20px;
+        border-radius: 10px;
+    }.page8-center{
+        height: 45%;
+        width: 100%;
+        margin-left: 0;
+        padding: 0 20px;
+    }.page8-first img{
+        width: 100px;
+    }.footer{
+        padding-left: 0;
+        gap: 15px;
+    }
+    .page8-forth h3{
+        font-size: 3vw;
+    }
+    .page8-forth div{
+        flex-direction: column;
+        align-items: start;
+    }.page8-forth div input{
+        font-size: 2.4vw;
+        padding: 0;
+        width: 100%;
+    }.page8-forth div button{
+        width: 100%;
+        padding: 10px 20px;
+        font-size: 2.5vw;
+    }.page8-forth p{
+        font-size: 1.7vw;
+        width: 100%;
+        margin-top: 10px;
+    }.footer a{
+        font-size: 2vw;
+    }.page8-bottom{
+        height: 15%;
+        width: 100%;
+        margin-left: 0;
+        padding: 0 20px;
+        justify-content: space-between;
+    }.bottom a{
+        font-size: 2vw;
+        white-space: nowrap;
+    }.page8-bottom-center .circle{
+        width: 25px;
+        height: 25px;
+    }.page8-bottom-center .circle i{
+        font-size: 15px;
+    }.page8-bottom-right{
+        display: none;
+    }
+
+}
